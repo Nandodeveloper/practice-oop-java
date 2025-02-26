@@ -1,3 +1,5 @@
+package br.com.alura.practiceoopjava.models;
+
 public class Product {
     private String name;
     private double price;

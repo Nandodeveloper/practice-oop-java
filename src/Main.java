@@ -1,5 +1,7 @@
+import br.com.alura.practiceoopjava.models.PerishableProduct;
+import br.com.alura.practiceoopjava.models.Product;
+
 import java.util.ArrayList;
-import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,6 +27,7 @@ public class Main {
         var perishableProduct = new PerishableProduct("Fish");
         perishableProduct.setPrice(44.90);
         perishableProduct.setStock(56);
+        perishableProduct.setExpirationDate("10/08/2025");
         System.out.println(perishableProduct);
     }
 }
